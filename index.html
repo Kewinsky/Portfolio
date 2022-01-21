@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kewin" />
+    <meta
+      name="keywords"
+      content="portfolio, resume, cv, webpage, webdesigner"
+    />
+    <title>類 Kewin Tao Anh 会</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <script>
+      document.onscroll = function () {
+        if (
+          window.innerHeight + window.scrollY - 500 >
+          document.body.clientHeight
+        ) {
+          document.getElementById("a-social-b").classList.add("off");
+        } else {
+          document.getElementById("a-social-b").classList.remove("off");
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <!--home-->
+    <header>
+      <!--navigation bar-->
+      <nav class="sticky">
+        <!--logo-->
+        <a href="#" class="logo">類|KTA|会</a>
+        <!--menu-->
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#projects" class="active">Portfolio</a></li>
+          <li>
+            <a href="#contact" class="contact_me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <!--text-->
+      <div class="text-container">
+        <p>Hello,</p>
+        <p>I am Kevin</p>
+        <p>the Web Developer<br />& Designer</p>
+        <a href="#contact"><button class="hire-btn">Hire me</button></a>
+        <button class="down-cv">Download CV</button>
+      </div>
+      <!--model-->
+      <div class="img-box">
+        <img src="back-me.png" alt="backgournd-triangles" class="back-model" />
+        <img src="me.png" alt="picture_of_me_1" class="model" />
+      </div>
+    </header>
+    <!--about-->
+    <section id="about">
+      <div class="about-container">
+        <!--img-->
+        <img src="me2.png" alt="picture_of_me_2" />
+        <!--about_text-->
+        <div class="about-text">
+          <p>About me</p>
+          <p>Developer & Designer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            necessitatibus sapiente, laudantium eligendi vero commodi non?
+            Blanditiis sequi dignissimos aut nemo. Pariatur voluptate, cum eaque
+            cupiditate velit id quibusdam aut!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+            aliquid consequatur doloribus incidunt illo sunt aliquam similique
+            adipisci facere amet nisi autem praesentium repellendus impedit
+            aperiam! Facilis ducimus quod ab?
+          </p>
+          <!--button-->
+          <a href="#contact"><button class="abt-hire-me">Hire me</button></a>
+          <button class="abt-down">Download CV</button>
+        </div>
+      </div>
+      <!--services-->
+      <div class="services" id="projects">
+        <!--text-->
+        <div class="services-text">
+          <p>Technologies</p>
+          <p>& Private projects</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, eius
+            ad eaque, molestiae delectus tempora excepturi quo laudantium
+            consequuntur veniam ipsum pariatur voluptatibus atque, eveniet
+            perferendis rem vitae voluptas distinctio.
+          </p>
+        </div>
+        <!--box-->
+        <div class="box-container">
+          <!--1-->
+          <div class="box-1">
+            <img src="html.png" alt="" class="tech-background" />
+            <p class="heading">HTML</p>
+            <p class="details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              explicabo pariatur unde minus? Ad suscipit maiores consequatur
+              molestias aperiam, numquam minima officia porro, corrupti facilis
+              fugit nam tempore quaerat labore!
+            </p>
+            <button class="custom-btn-1 btn-1">Read More</button>
+          </div>
+          <!--2-->
+          <div class="box-2">
+            <img src="css.png" alt="" class="tech-background" />
+            <p class="heading">CSS</p>
+            <p class="details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              explicabo pariatur unde minus? Ad suscipit maiores consequatur
+              molestias aperiam, numquam minima officia porro, corrupti facilis
+              fugit nam tempore quaerat labore!
+            </p>
+            <button class="custom-btn-1 btn-1">Read More</button>
+          </div>
+          <!--3-->
+          <div class="box-3">
+            <img src="js.png" alt="" class="tech-background" />
+            <p class="heading">Javasricpt</p>
+            <p class="details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              explicabo pariatur unde minus? Ad suscipit maiores consequatur
+              molestias aperiam, numquam minima officia porro, corrupti facilis
+              fugit nam tempore quaerat labore!
+            </p>
+            <button class="custom-btn-1 btn-1">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!--contact_me-->
+      <div class="contact-me" id="contact">
+        <p>If you have any project in your mind.</p>
+        <form>
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Message"
+          ></textarea>
+        </form>
+        <button class="btn-2">Send Message</button>
+      </div>
+
+      <!--footer-->
+      <footer>
+        <p class="logo_footer">類|KTA|会</p>
+        <p class="motiv-text">
+          Don’t limit yourself. Many people limit themselves to what they think
+          they can do. You can go as far as your mind lets you. What you
+          believe, remember, you can achieve.
+        </p>
+        <!--social-->
+        <div class="social-box">
+          <div class="wrapper">
+            <a href="https://www.facebook.com/kewin.taoanh">
+              <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook"></i></span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/kewin-taoanh/">
+              <div class="icon linkedin">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i></span>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/kenvi.ta/">
+              <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+              </div>
+            </a>
+            <a href="https://github.com/Kewinsky"
+              ><div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--copyright-->
+        <p class="copyright">Copyright by Kewin Tao Anh</p>
+      </footer>
+
+      <!--attached social bar-->
+      <div class="a-social-b" id="a-social-b">
+        <a href="https://www.facebook.com/kewin.taoanh"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/kewin-taoanh/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/kenvi.ta/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Kewinsky"><i class="fab fa-github"></i></a>
+      </div>
+    </section>
+  </body>
+</html>
